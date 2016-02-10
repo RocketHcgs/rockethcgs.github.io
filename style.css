@@ -1,0 +1,87 @@
+/* RocketHcgs CSS */
+
+
+/* class */
+.header {
+	top:0;
+	left:0;
+	height:40px;
+	width:100%;
+	position:fixed;
+	background:#fff;
+	font-size:18px;
+}
+.menu_left {
+	top:10px;
+	left:15px;
+	position:fixed;
+}
+.menu_right {
+	top:10px;
+	right:15px;
+	position:fixed;
+}
+.menu_bar {
+	top:40px;
+	left:0;
+	height:1px;
+	width:100%;
+	background:url(menu_bar.png);
+	position:fixed;
+}
+
+.main {
+	text-align:center;
+	margin:50px 0% 60px 0%;
+}
+
+.footer {
+	text-align:center;
+	background:#fff;
+	font-size:14px;
+	border-top: #b2b2b2 1px solid;
+	padding-top:5px;
+	bottom:0;
+	left:0;
+	height:50px;
+	width:100%;
+	position:fixed;
+}
+
+/* id */
+#bg {
+	top:30px;
+	right:20px;
+	position:fixed;
+	opacity:0.15;
+	-webkit-user-select:none;
+	user-select:none;
+	z-index:-1;
+}
+
+/* other */
+body {
+	font-family:微软雅黑,Arial;
+}
+.header a:link,a:visited {
+	text-decoration:none;
+	color:black;
+}
+.header a:hover,a:active {
+	text-decoration:none;
+	color:#004aff;
+}
+.footer a:link,a:visited {
+	text-decoration:none;
+	color:black;
+}
+.footer a:hover,a:active {
+	text-decoration:underline;
+}
+ul {
+	list-style:none;
+}
+li {
+	display:inline-block;
+	background:#e0e0e0;
+}
