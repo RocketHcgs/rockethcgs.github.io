@@ -39,7 +39,7 @@
 	text-decoration:none;
 }
 .main a:hover,a:active {
-	color:#23527c;
+	color:#23527c !important;
 	text-decoration:underline;
 }
 
