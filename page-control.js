@@ -1,7 +1,9 @@
-//Javascript
+/**
+ * Change the pages
+ */
 
-function hello() {
-	setTimeout('hello()',50);
+function pages() {
+	setTimeout('pages()',50);
 	var page;
 	page = location.hash;
 	switch(page) {
@@ -37,7 +39,7 @@ $(function(){
 	setTimeout("$('#home').addClass('page-current')",500);
 	$('#home-link').addClass('active');
 	$('#about-link').removeClass('active');
-	hello();
+	pages();
 	$('#home-link').click(function(event){
 		if(location.hash !== '#home' && location.hash !== '#about') {
 			event.preventDefault();

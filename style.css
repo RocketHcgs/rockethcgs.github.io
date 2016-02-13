@@ -1,4 +1,7 @@
-/* RocketHcgs CSS */
+/**
+ * RocketHcgs's Page
+ * CSS
+ */
 
 
 @-webkit-keyframes SlideIn {
@@ -93,7 +96,6 @@ body {
 #home {
 	background:#0ac2d2;
 }
-
 #about {
 	background:#60d7a9;
 }
@@ -108,11 +110,12 @@ body {
 	color:#333;
 }
 .content-2 {
-	width:50%;
-	top:20%;
-	left:25%;
+	top:40%;
+	left:50%;
 	z-index:9;
 	position:absolute;
+	margin-top:-12em;
+	margin-left:-9.6em;
 	color:#333;
 }
 
@@ -124,21 +127,7 @@ body {
 	box-shadow:0 0 10px rgba(0,0,0,.4);
 	text-align:center;
 }
-.box-left {
-	float:left;
-	width:45%;
-	padding:0 1em;
-	background:#fff;
-	border: 1px solid transparent;
-	border-radius:4px;
-	box-shadow:0 0 10px rgba(0,0,0,.4);
-}
-.box-left ul {
-	padding-left:1em;
-}
-.box-right {
-	float:right;
-	width:45%;
+.box-about {
 	background:#eee;
 	border: 1px solid transparent;
 	border-radius:4px;
@@ -155,8 +144,10 @@ body {
 	color:#333;
 	text-decoration:underline;
 }
-
-.footer {
+.box-body ul {
+	padding-left:1em;
+}
+.box-footer {
     padding:10px 15px;
     background-color:#ddd;
     border-top:1px solid #ccc;
