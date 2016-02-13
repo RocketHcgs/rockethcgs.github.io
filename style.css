@@ -87,6 +87,7 @@ body {
 }
 .page-current {
 	opacity:1;
+	z-index:8;
 }
 
 #home {
@@ -98,10 +99,11 @@ body {
 }
 
 .content-1 {
-	top:30%;
+	top:40%;
 	left:50%;
 	z-index:9;
 	position:absolute;
+	margin-top:-5em;
 	margin-left:-9.3em;
 	color:#333;
 }
