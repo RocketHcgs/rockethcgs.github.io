@@ -1,6 +1,6 @@
 ﻿# RocketHcgs's Page
 Welcome to this page.  
-[RocketHcgs's Page](https://rockethcgs.github.io/)  
+[RocketHcgs's Page](http://rockethcgs.me/)  
 [RHW Team Website](http://www.rhw-team.com/)  
   
 # 说明
