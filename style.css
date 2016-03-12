@@ -161,6 +161,14 @@ body {
 	margin:.4em 0;
 }
 
+.links-box {
+	font-size:26px;
+}
+.links-box a {
+	color:rgba(0,0,0,.5);
+	text-decoration:none;
+}
+
 @media screen and (max-width:900px) {
 .content-2 {
 	height:88%;
