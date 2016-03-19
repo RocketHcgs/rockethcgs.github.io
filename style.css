@@ -112,7 +112,7 @@ body {
 	width:297px;
 	z-index:9;
 	position:absolute;
-	margin-top:-9.3em;
+	margin-top:-10.3em;
 	margin-left:-9.3em;
 	color:#333;
 }
@@ -162,10 +162,24 @@ body {
 }
 
 .links-box {
-	font-size:26px;
+	font-size:24px;
 }
-.links-box a {
+.links-box i {
+	height:36px;
+	width:36px;
+	line-height:36px;
+	margin:.1em;
+	border:1px solid transparent;
+	border-radius:24px;
+	background:rgba(0,0,0,.1);
 	color:rgba(0,0,0,.5);
+	text-decoration:none;
+	transition:background-color 0.2s,color 0.2s;
+	-webkit-transition:background-color 0.2s,color 0.2s;
+}
+.links-box i:active,i:hover {
+	background:#0ac2d2;
+	color:#eee;
 	text-decoration:none;
 }
 
@@ -194,12 +208,11 @@ body {
 @media screen and (min-width:901px) {
 .content-2 {
 	height:88%;
-	min-width:292px;
+	width:33.3%;
 	top:14%;
-	left:50%;
+	left:33.3%;
 	z-index:9;
 	position:absolute;
-	margin-left:-11.1em;
 	color:#333;
 }
 .box-about {
