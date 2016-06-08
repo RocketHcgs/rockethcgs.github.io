@@ -81,6 +81,7 @@ body {
 }
 
 .main {
+	position:fixed;
 	perspective:1200px;
 	height:100%;
 	width:100%;
