@@ -1,7 +1,6 @@
 ﻿# RocketHcgs's Page
 Welcome to this page.  
-[RocketHcgs's Page](http://rockethcgs.me/)  
-[RHW Team Website](http://www.rhw-team.com/)  
+[Rock's Blog](https://rockethcgs.me/)  
   
 # 说明
 您对本源码拥有以下权利：  
@@ -14,4 +13,4 @@ Welcome to this page.
 - 不得用于商业目的  
 - 必须以相同的协议进行发布  
   
-© RocketHcgs @ RHW Team. All Rights Reserved.
+© RocketHcgs. All Rights Reserved.
